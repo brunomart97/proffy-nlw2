@@ -2,13 +2,13 @@
 // Header
 // ContentHome
 
-.App {
+.layout {
   display: grid;
-  grid-template-columns: 300px auto;
+  grid-template-columns: 220px auto;
   grid-template-rows: 90px auto;
   grid-template-areas:
     'Sidebar Header'
-    'Sidebar ContentHome';
+    'Sidebar Content';
   height: 100vh;
   font-family: 'Poppins', sans-serif;
 }

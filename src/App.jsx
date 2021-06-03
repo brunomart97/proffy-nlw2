@@ -1,18 +1,11 @@
 import './styles/global.scss';
-import './App.scss';
 
-import { useState } from "react";
+import Routes from './routes/Routes';
 
 function App() {
-  const [darkTheme, setDarkTheme] = useState(false);
-
-  function changeTheme() {
-    setDarkTheme(!darkTheme);
-  }
-
   return (
     <div className="App">
-      <h1>Hello Imperius</h1>
+      <Routes />
     </div>
   );
 }
