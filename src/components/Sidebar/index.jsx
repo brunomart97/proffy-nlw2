@@ -11,11 +11,6 @@ import { FiBox } from 'react-icons/fi';
 
 export default function Sidebar({ darkTheme }) {
   const [selectedButton, setSelectedButton] = useState('dashboard');
-  console.log(selectedButton);
-
-  // function changeSelectedButton() {
-  //   setSelectedButton(!selectedButton);
-  // };
 
   return (
     <div className={`backSidebar ${darkTheme && "dark"}`}>
