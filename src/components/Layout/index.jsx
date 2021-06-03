@@ -9,7 +9,7 @@ export default function Layout() {
 
   function changeTheme() {
     setDarkTheme(!darkTheme);
-  }
+  };
 
   return (
     <div className="layout">

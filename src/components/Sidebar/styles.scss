@@ -49,7 +49,7 @@
 
         button {
           width: 100%;
-          height: 55px;
+          height: 50px;
           display: flex;
           align-items: center;
           font-family: "Poppins", sans-serif;
@@ -58,6 +58,7 @@
           background-color: transparent;
           border: none;
           padding: 5px 15px;
+          margin: 3px 0;
           text-align: start;
           border-radius: 15px 0 0 15px;
           cursor: pointer;
@@ -66,11 +67,17 @@
             width: 20px;
             height: 20px;
             margin-right: 15px;
+            transition: .3s;
           }
 
           &.active {
             background-color: var(--blueSecond);
             color: #fff;
+
+            svg {
+              width: 28px;
+              height: 28px;
+            }
           }
         }
       }
